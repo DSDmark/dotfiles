@@ -8,21 +8,21 @@ const Nevbar = ({ data, hendleNevbar, nevState, hendleLink, activeLink }) => {
     boxShadow: "inset 3px 3px 3px #d0d0d0, inset -3px -3px 3px #f8f8f8",
     color: "#496fe3bf",
   };
-
   return (
     <nav
-      key={i}
       className="nav_bar grid"
       style={nevState ? { right: "100%" } : {}}
     >
       <div
-        onClick={() => hendleNevbar(!state)}
+        onClick={() => hendleNevbar(!nevState)}
         className="menu-icon outer-shadow hover-in-shadow"
       >
         <GiCowled />
       </div>
-      <ul className="menu grid">
-        <li>
+      <ul className="menu grid" >
+      {data.newCategorys.map((e,i)=>(
+        <>
+        <li key={i}>
           <Link href={`/${e}`}>
             <a
               style={activeLink == e ? activeStyle : {}}
@@ -33,6 +33,8 @@ const Nevbar = ({ data, hendleNevbar, nevState, hendleLink, activeLink }) => {
             </a>
           </Link>
         </li>
+        </>
+      ))}
       </ul>
       <p className="copyright">
         <AiFillCopyrightCircle />

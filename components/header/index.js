@@ -12,11 +12,11 @@ const Header = () => {
       <header className="header container">
         {Header_data.map((e) => (
           <>
-            <HeaderIcon data={e.logoText} hendleNevbar={setstate} />
+            <HeaderIcon data={e.logoText} nevState={state} hendleNevbar={setstate} />
             <Nevbar
               data={e.nevbar}
               hendleNevbar={setstate}
-              newState={state}
+              nevState={state}
               hendleLink={setLink}
               activeLink={activeLink}
             />

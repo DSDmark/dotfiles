@@ -2,7 +2,7 @@ import React from "react";
 import { GiPirateSkull } from "react-icons/gi";
 import Link from "next/link";
 
-const HeaderIcon = ({ data, hendleNevbar }) => {
+const HeaderIcon = ({ data, hendleNevbar,nevState }) => {
   return (
     <div className="header_data grid">
       <div className="logo">
@@ -12,7 +12,7 @@ const HeaderIcon = ({ data, hendleNevbar }) => {
       </div>
       <div className="menu-icon">
         <a
-          onClick={() => hendleNevbar(!state)}
+          onClick={() => hendleNevbar(!nevState)}
           className="outer-shadow hover-in-shadow"
         >
           <GiPirateSkull />
