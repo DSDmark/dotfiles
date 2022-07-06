@@ -10,7 +10,7 @@ const About = () => {
   console.log();
   return (
     <>
-      <header className="section about_section container">
+      <section className="section about_section container">
         <ImgIcons
           ImgUrl={About_data[0].about.img.url}
           imgAlt={About_data[0].about.img.alt}
@@ -27,7 +27,7 @@ const About = () => {
             expriances={e.expriances}
   />*/}
         </>
-      </header>
+      </section>
     </>
   );
 };
