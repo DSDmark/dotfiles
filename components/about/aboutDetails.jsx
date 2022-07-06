@@ -8,7 +8,7 @@ const Icon = (props) => {
   return <div style={{ fontSize: size }}>{icon}</div>;
 };
 
-const about_details = ({
+const AboutDetails = ({
   skills,
   education,
   expriances,
@@ -90,4 +90,4 @@ function Detail({ skills, education, expriances, category, activeLink }) {
   }
 }
 
-export default about_details;
+export default AboutDetails;

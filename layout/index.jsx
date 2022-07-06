@@ -1,7 +1,3 @@
-const DefaultLayout = ({ children }) => (
-  <div>
-    <main>{children}</main>
-  </div>
-);
+const DefaultLayout = ({ children }) => <>{children}</>;
 
 export default DefaultLayout;

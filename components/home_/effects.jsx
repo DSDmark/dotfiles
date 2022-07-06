@@ -1,13 +1,7 @@
-import Link from "next/link";
-import Typical from "react-typical";
-import Image from "next/image";
-import sanskarImg from "../public/image/sanskar.png";
+import React from 'react'
 
-const home = () => {
-  return (
-    <>
-      <section className="home_section container section">
-        <div className="effect-wrap">
+const Effects = () =>  (
+    <>  <div className="effect-wrap">
           <div className="effect squre"></div>
           <div className="effect circle"></div>
           <div className="effect triangle"></div>
@@ -176,47 +170,8 @@ const home = () => {
             <div></div>
             <div></div>
           </div>
-        </div>
-        <div className="grid home_data">
-          <div className="home_details">
-            <h2 className="subtitle">
-              <Typical
-                steps={["≧◉ᴥ◉≦ 😅 !,", 6000, "hello 😈 !,", 7000]}
-                loop={Infinity}
-                wrapper="p"
-              />
-            </h2>
-            <h1 className="title">
-              I{`'`}m [sanskar sahu ||<b>DSmark</b> ]
-            </h1>
-            <p className="decs">
-              <Typical
-                steps={[
-                  "webDeveloper && designer",
-                  7000,
-                  "trader && inverster",
-                  7000,
-                  "gamer && small gamerDeveloper",
-                  7000,
-                  "coder && techSupporter",
-                  7000,
-                ]}
-                loop={Infinity}
-              />
-            </p>
-            <Link passHref href="#">
-              <button className="button">
-                <Typical steps={["more about me", 10000]} wrapper="p" />
-              </button>
-            </Link>
-          </div>
-          <div className="home_img">
-            <Image height={500} width={500} src={sanskarImg} alt="dsmark" />
-          </div>
-        </div>
-      </section>
-    </>
-  );
-};
+      </div>
+      </>
+  )
 
-export default home;
+export default Effects

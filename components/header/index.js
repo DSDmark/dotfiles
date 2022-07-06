@@ -10,9 +10,14 @@ const Header = () => {
   return (
     <>
       <header className="header container">
-        {Header_data.map((e) => (
+        {Header_data.map((e, i) => (
           <>
-            <HeaderIcon data={e.logoText} nevState={state} hendleNevbar={setstate} />
+            <HeaderIcon
+              key={i}
+              data={e.logoText}
+              nevState={state}
+              hendleNevbar={setstate}
+            />
             <Nevbar
               data={e.nevbar}
               hendleNevbar={setstate}
