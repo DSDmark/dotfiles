@@ -6,8 +6,8 @@ import AboutContant from "./aboutContant";
 import Categorys from "./categorys";
 
 const About = () => {
-  // const [state, setstate] = useState("skills");
-  console.log();
+  const [category, setCategory] = useState("skills");
+  // console.log(About_data[0].about.title);
   return (
     <>
       <section className="section about_section container">
@@ -15,18 +15,18 @@ const About = () => {
           ImgUrl={About_data[0].about.img.url}
           imgAlt={About_data[0].about.img.alt}
         />
-        <>
-          <div className="about_data grid"></div>
-          {/* <Categorys />
-            <AboutContant />
-           <About_details
-            activeLink={state}
-            category={e.category}
-            skills={e.skills}
-            education={e.education}
-            expriances={e.expriances}
-  />*/}
-        </>
+        <AboutContant data={About_data[0].about}/>
+        
+          {/* <div className="about_data grid">
+        <About_details
+         activeLink={state}
+         category={e.category}
+         skills={e.skills}
+         education={e.education}
+         expriances={e.expriances}
+/>
+</div> */}
+{/* <Categorys category={About_data[0].category} setCategory={setCategory}/> */}
       </section>
     </>
   );

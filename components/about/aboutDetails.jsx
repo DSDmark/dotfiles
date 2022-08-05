@@ -18,7 +18,7 @@ const AboutDetails = ({
   return (
     <div
       className={
-        category[0] == activeLink ? "grid details-area" : "grid detail-info"
+        category[0] === activeLink ? "grid details-area" : "grid detail-info"
       }
     >
       <Detail
@@ -33,7 +33,7 @@ const AboutDetails = ({
 };
 
 function Detail({ skills, education, expriances, category, activeLink }) {
-  if (category[0] == activeLink) {
+  if (category[0] === activeLink) {
     return (
       <>
         {skills.map((e, i) => {
@@ -53,7 +53,7 @@ function Detail({ skills, education, expriances, category, activeLink }) {
         })}
       </>
     );
-  } else if (category[1] == activeLink) {
+  } else if (category[1] === activeLink) {
     return (
       <>
         {education.map((e, i) => {

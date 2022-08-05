@@ -22,29 +22,29 @@ const ImgIcons = ({ ImgUrl, ImgAlt }) => {
         </div>
         <div className="about_icons">
           <Link href="#">
-            <a className="hover-in-shadow">
+            <button className="hover-in-shadow">
               <AiFillGithub />
-            </a>
+            </button>
           </Link>
           <Link href="#">
-            <a className="hover-in-shadow">
+            <button className="hover-in-shadow">
               <AiFillInstagram />
-            </a>
+            </button>
           </Link>
           <Link href="#">
-            <a className="hover-in-shadow">
+            <button className="hover-in-shadow">
               <SiFiverr />
-            </a>
+            </button>
           </Link>
           <Link href="#">
-            <a className="hover-in-shadow">
+            <button className="hover-in-shadow">
               <BsStackOverflow />
-            </a>
+            </button>
           </Link>
           <Link href="#">
-            <a className="hover-in-shadow">
+            <button className="hover-in-shadow">
               <BsDiscord />
-            </a>
+            </button>
           </Link>
         </div>
       </div>
