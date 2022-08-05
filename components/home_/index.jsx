@@ -1,5 +1,5 @@
 import Effects from "./effects";
-import SanskarImg from "../../public/image/sanskar.png";
+import SanskarImg from "../../public/image/dsmark.jpg";
 import TypeingEffects from "./typingEffects";
 import Image from "next/image";
 

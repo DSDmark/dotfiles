@@ -1,19 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 
-const Categorys = () => {
+const Categorys = ({ category, setCategory }) => {
+  const [state, setstate] = useState("skills");
   return (
     <>
       <div className="grid category-area">
         <ul className="about_details-menu">
-          {e.category.map((e, i) => {
+          {category.map((e, i) => {
             return (
               <li
                 style={
-                  state == e
+                  state === category
                     ? {
                         boxShadow:
                           "inset 3px 3px 3px #d0d0d0, inset -3px -3px 3px #f8f8f8",
-                        color: "#496fe3bf",
+                        color: "#496fe3bf"
                       }
                     : {}
                 }
@@ -21,7 +22,7 @@ const Categorys = () => {
                 onClick={() => setstate(e)}
                 className="menu-items button"
               >
-                {e}
+                {category}
               </li>
             );
           })}

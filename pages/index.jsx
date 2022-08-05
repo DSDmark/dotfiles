@@ -2,9 +2,9 @@ import {
   Header,
   Home,
   About,
-  Service,
-  Portfolio,
-  Contact,
+  // Service,
+  // Portfolio,
+  // Contact,
 } from "../components";
 
 const index = () => {

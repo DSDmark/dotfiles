@@ -40,14 +40,16 @@
 .about_icons {
   margin-top: 1rem;
   @include flexPro;
-  & a {
+  & button {
     color: map-get($main_color, title);
+    background:none;
     margin-left: 2rem;
-    font-size: map-get($fonts, bigF) - 0.5rem;
+    border: none;
+    font-size: map-get($fonts, bigF) + 0.2rem;
     box-shadow: $outerShadow;
     @include flexPro;
     border-radius: 50%;
-    padding: 0.6rem;
+    padding: 0.7rem;
     @include transitionPro;
   }
 }

@@ -8,12 +8,14 @@
       justify-content: flex-start;
       line-height: map-get($margins, line-height) - 1.5rem;
 
-      a {
+      button {
         color: map-get($main_color, sC);
         @include flexPro;
         justify-content: center;
+        background: none;
         border: 3px solid map-get($main_color, sC);
         border-radius: 50%;
+        outline:none;
         font-size: map-get($fonts, normalF) + 0.5rem;
         padding: 0.5rem;
       }
@@ -23,12 +25,16 @@
       @include flexPro;
       justify-content: flex-end;
 
-      a {
+      button {
         color: map-get($main_color, sC);
         @include flexPro;
         justify-content: center;
+background: none;
+        font-size: map-get($fonts,bigF) + .5rem;
+        border: none;
         border-radius: 5rem;
-        padding: 0.8rem;
+        outline: none;
+        padding:.5rem;
       }
     }
   }
