@@ -1,0 +1,14 @@
+# theme
+import = ["~/.config/alacritty/themes/dracula/theme.toml"]
+
+[window]
+
+padding = {x=10,y=10}
+
+
+[font]
+
+normal = {family = "0xProto", style = "Regular"}
+size = 8.5
+
+
