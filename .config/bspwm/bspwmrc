@@ -17,4 +17,4 @@ bspc rule -a Firefox desktop='^2'
 
 $HOME/.config/polybar/launch.sh
 
-sxhkd & nitrogen --restore 
+sxhkd & nitrogen --restore

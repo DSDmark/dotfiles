@@ -1,6 +1,12 @@
 .git
-script.sh
+
+/.config/neofetch/
+.config/neofetch
+/neofetch
+/neofetch/
+~/.config/neofetch
+~/.config/neofetch/
+
 pulse
 gtk-2.0
 systemd
-neofetch

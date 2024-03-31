@@ -1,0 +1,13 @@
+set shell zsh
+
+# delete
+map d delete
+
+# copy
+map c copy
+
+# create
+map a create
+
+# cut
+map x cut
