@@ -5,10 +5,11 @@ import = ["~/.config/alacritty/themes/dracula/theme.toml"]
 
 padding = {x=10,y=10}
 
+opacity = 0.4
+
 
 [font]
 
 normal = {family = "0xProto", style = "Regular"}
 size = 8.5
-
 
