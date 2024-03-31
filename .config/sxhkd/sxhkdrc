@@ -36,6 +36,14 @@ super + g
 super + {alt + p}
         polybar-msg cmd toggle	
 
+# increase volume
+F8
+  pipewire-pluse volume 5%+
+
+# decrease volume
+F7
+  pipewire-pluse volume 5%-
+
 # state/flags
 
 # set the window state

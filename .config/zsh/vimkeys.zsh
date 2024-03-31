@@ -1,3 +1,9 @@
+# Enable vi mode
+bindkey -v
+
+# key bindings
+bindkey -M vicmd 'jj' vi-cmd-mode
+
 # seting inset mode initailly
 zle-line-init() {
     zle -K viins 
