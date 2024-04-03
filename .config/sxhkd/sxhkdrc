@@ -34,15 +34,15 @@ super + g
 
 # hide/show polybar
 super + {alt + p}
-        polybar-msg cmd toggle	
+       polybar-msg cmd toggle && bspc config bottom_padding 0
 
 # increase volume
-F8
-  pipewire-pluse volume 5%+
+XF86AudioRaiseVolume
+        pactl set-sink-volume @DEFAULT_SINK@ +5%
 
 # decrease volume
-F7
-  pipewire-pluse volume 5%-
+XF86AudioLowerVolume
+        pactl set-sink-volume @DEFAULT_SINK@ -5%
 
 # state/flags
 
