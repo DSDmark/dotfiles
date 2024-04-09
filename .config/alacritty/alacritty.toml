@@ -1,4 +1,5 @@
 # theme
+
 import = ["~/.config/alacritty/themes/dracula/theme.toml"]
 
 [window]
@@ -12,4 +13,5 @@ opacity = 0.4
 
 normal = {family = "0xProto", style = "Regular"}
 size = 8.5
+
 

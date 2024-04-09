@@ -1,15 +1,20 @@
--- Leader key
-vim.g.mapleader = ","
+require"core.keymaps"
 
--- Toggle to normal mode
-vim.api.nvim_set_keymap('i', 'jj', '<Esc>', { noremap = true })
+-- checking path if exist
+local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 
--- Map <leader>w to save the current buffer
-vim.api.nvim_set_keymap('n', '<leader>w', ':w<CR>', { noremap = true })
+-- if not exist
+if not vim.loop.fs_stat(lazypath) then
+	vim.fn.system({
+		"git",
+		"clone",
+		"--filter=blob:none",
+		"https://github.com/folke/lazy.nvim.git",
+		"--branch=stable",
+		lazypath,
+	})
+end
 
--- Map <leader>q to quit Neovim
-vim.api.nvim_set_keymap('n', '<leader>q', ':q<CR>', { noremap = true })
+vim.opt.rtp:prepend(lazypath)
 
--- Map <C-z> to do nothing (zsh: suspended nvim, to not send nvim background) 
-vim.api.nvim_set_keymap('n', '<C-z>', '<NOP>', { noremap = true, silent = true })
-
+require("lazy").setup("plugins")
