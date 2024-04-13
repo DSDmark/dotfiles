@@ -14,4 +14,5 @@ vim.api.nvim_set_keymap('n', '<leader>q', ':q<CR>', { noremap = true })
 vim.api.nvim_set_keymap('n', '<C-z>', '<NOP>', { noremap = true, silent = true })
 
 -- Tree sitter 
-vim.keymap.set("n",'<leader>e',':Neotree filesystem reveal left<CR>')
+vim.keymap.set("n", "<leader>e", ":Neotree toggle last<CR>")
+
