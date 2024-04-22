@@ -5,3 +5,5 @@ alias la='ls -al'
 alias sv='sudo nvim -u ~/.config/nvim/init.lua'
 alias v="nvim"
 alias p="mpv"
+alias bcl="bluetoothctl"
+
