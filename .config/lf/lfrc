@@ -15,4 +15,3 @@ map x cut
 # show hidden file by default
 set hidden
 
-file --mime-type -b %f | grep -q '^video' && mpv %f

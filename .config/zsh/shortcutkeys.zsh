@@ -10,4 +10,4 @@ bindkey '^e' end-of-line
 # beginning of line
 bindkey '^a' beginning-of-line 
 
-
+setopt autocd extendedglob nomatch menucomplete
