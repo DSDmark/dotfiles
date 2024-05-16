@@ -6,7 +6,8 @@ return {
     config.setup({
       auto_install = true,
       hightlight = { enable = true },
-      indent = { enable = true },
+       indent = { enable = true },
+
     })
   end,
 }

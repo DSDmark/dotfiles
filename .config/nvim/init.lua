@@ -1,3 +1,4 @@
+require("core.keyf-function")
 require("core.keymaps")
 require("core.base")
 -- checking path if exist

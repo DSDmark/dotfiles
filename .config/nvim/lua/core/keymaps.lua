@@ -1,3 +1,4 @@
+
 -- Leader key
 vim.g.mapleader = ","
 
@@ -31,3 +32,12 @@ vim.api.nvim_set_keymap("n", "<C-h>", ":wincmd h<CR>", { noremap = true, silent 
 vim.api.nvim_set_keymap("n", "<C-l>", ":wincmd l<CR>", { noremap = true, silent = true })
 vim.api.nvim_set_keymap("n", "<C-k>", ":wincmd k<CR>", { noremap = true, silent = true })
 vim.api.nvim_set_keymap("n", "<C-j>", ":wincmd j<CR>", { noremap = true, silent = true })
+
+-- text line wraping
+vim.keymap.set("n", "<leader>z", ":set wrap!<CR>")
+
+-- menu keymappings for incearing and decearing
+vim.api.nvim_set_keymap("n", "<C-A>", ":vertical resize +2<CR>", { noremap = true })
+
+-- jumptotab function
+vim.api.nvim_set_keymap("n", "<leader><Tab>", ":lua JumpToTab()<CR>", { noremap = true, silent = true })
