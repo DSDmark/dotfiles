@@ -1,0 +1,13 @@
+# Define a custom command to create a new file 
+cmd newfile ${{
+    file=$(lf -remote "send \`echo -en 'Enter new file name: '\`" > /dev/tty)
+    read file < /dev/tty
+    [ -n "$file" ] && touch "$file" && lf -remote "send reload"
+}}
+
+# Define a custom command to create a new directory
+cmd newdir ${{
+    dir=$(lf -remote "send \`echo -en 'Enter new directory name: '\`" > /dev/tty)
+    read dir < /dev/tty
+    [ -n "$dir" ] && mkdir "$dir" && lf -remote "send reload"
+}

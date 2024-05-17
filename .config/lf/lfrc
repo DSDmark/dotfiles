@@ -1,3 +1,6 @@
+source ~/.config/lf/key-functions
+
+# default shell
 set shell zsh
 
 # delete
@@ -6,12 +9,15 @@ map d delete
 # copy
 map c copy
 
-# create
-map a create
-
 # cut
 map x cut
 
 # show hidden file by default
 set hidden
+
+# Bind 'a' to newfile command
+map a newfile
+
+# Bind 'A' to newdir command
+map A newdir
 
