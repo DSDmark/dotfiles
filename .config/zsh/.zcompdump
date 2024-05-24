@@ -1,4 +1,4 @@
-#files: 812	version: 5.9
+#files: 813	version: 5.9
 
 _comps=(
 '-' '_precommand'
@@ -1498,6 +1498,7 @@ _comps=(
 'ypwhich' '_yp'
 'ypxfr' '_yp'
 'ytalk' '_other_accounts'
+'zap' '_zap'
 'zargs' '_zargs'
 'zcalc' '_zcalc'
 '-zcalc-line-' '_zcalc_line'
@@ -1822,7 +1823,7 @@ autoload -Uz _bspc _alacritty _bluetoothctl _bootctl _bspc \
             _zargs _zattr _zcalc _zcalc_line _zcompile \
             _zed _zftp _zle _zmodload _zmv \
             _zparseopts _zpty _zsh-mime-handler _zsocket _zstyle \
-            _ztodo
+            _ztodo _zap
 autoload -Uz +X _call_program
 
 typeset -gUa _comp_assocs
