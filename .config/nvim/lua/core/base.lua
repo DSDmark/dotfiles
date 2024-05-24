@@ -5,6 +5,6 @@ o.smartindent = true
 o.tabstop = 2
 o.shiftwidth = 2
 o.number = true
+o.relativenumber = true
 
 o.clipboard = "unnamedplus"
-

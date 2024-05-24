@@ -10,4 +10,4 @@ cmd newdir ${{
     dir=$(lf -remote "send \`echo -en 'Enter new directory name: '\`" > /dev/tty)
     read dir < /dev/tty
     [ -n "$dir" ] && mkdir "$dir" && lf -remote "send reload"
-}
+}}

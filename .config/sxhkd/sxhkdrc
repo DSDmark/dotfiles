@@ -3,7 +3,7 @@ super + t
 	alacritty
 
 super + b
-        firefox
+     firefox
 
 Print
      flameshot gui

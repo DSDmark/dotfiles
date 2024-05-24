@@ -54,11 +54,6 @@ return {
 				}),
 				matching = { disallow_symbol_nonprefix_matching = false },
 			})
-
-			--   local capabilities = require("cmp_nvim_lsp").default_capabilities()
-			--   require("lspconfig")["<YOUR_LSP_SERVER>"].setup({
-			--     capabilities = capabilities,
-			--   })
 		end,
 	},
 }

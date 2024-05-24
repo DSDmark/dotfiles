@@ -1,4 +1,3 @@
-
 -- Leader key
 vim.g.mapleader = ","
 
@@ -10,7 +9,7 @@ vim.api.nvim_set_keymap("i", "jj", "<Esc>", { noremap = true })
 vim.api.nvim_set_keymap("n", "<leader>w", ":w!<CR>:lua vim.lsp.buf.format()<CR>", { noremap = true })
 
 -- Map <leader>q to quit Neovim
-vim.api.nvim_set_keymap("n", "<leader>q", ":q!<CR>", { noremap = true })
+vim.api.nvim_set_keymap("n", "<leader>q", ":x!<CR>", { noremap = true })
 
 -- Map <C-z> to do nothing (zsh: suspended nvim, to not send nvim background)
 vim.api.nvim_set_keymap("n", "<C-z>", "<NOP>", { noremap = true, silent = true })
