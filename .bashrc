@@ -16,3 +16,6 @@ export EDITOR=nvim
 
 PS1='\[\e[1;32m\]\u@\h:\[\e[0m\]\w\$ '
 
+
+# Generated for envman. Do not edit.
+[ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
