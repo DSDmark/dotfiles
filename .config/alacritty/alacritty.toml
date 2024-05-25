@@ -1,17 +1,19 @@
 # theme
-
 import = ["~/.config/alacritty/themes/dracula/theme.toml"]
 
 [window]
 
-padding = {x=10,y=10}
-
-opacity = 0.4
+padding = {x=3,y=2}
+opacity = 0.8
 
 
 [font]
 
-normal = {family = "0xProto", style = "Regular"}
-size = 8.5
+normal = {family = "Hack Nerd Font", style = "Bold"}
+size = 8.8
+offset = { x = 1, y = 0 }
 
+[shell]
 
+program = "/usr/bin/tmux"
+args = ["new-session"]
