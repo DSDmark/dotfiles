@@ -1,7 +1,8 @@
 # custom scripts
 source "$ZDOTDIR/customScripts/z.zsh"
+source "$ZDOTDIR/customScripts/git.zsh"
 
-# alias
+#alias
 source "$ZDOTDIR/aliases.zsh"
 
 # shortcutkeys
