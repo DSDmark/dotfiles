@@ -1,12 +1,13 @@
 # custom scripts
 source "$ZDOTDIR/customScripts/z.zsh"
 source "$ZDOTDIR/customScripts/git.zsh"
+source "$ZDOTDIR/customScripts/shortcuts.zsh"
 
 #alias
 source "$ZDOTDIR/aliases.zsh"
 
 # shortcutkeys
-source "$ZDOTDIR/shortcutkeys.zsh"
+source "$ZDOTDIR/keybindings.zsh"
 
 # vim 
 source "$ZDOTDIR/vimkeys.zsh"
@@ -22,6 +23,8 @@ plug "zsh-users/zsh-syntax-highlighting"
 plug "zsh-users/zsh-autosuggestions"
 plug "zap-zsh/supercharge"
 plug "zap-zsh/zap-prompt"
+plug "zap-zsh/sudo"
+plug "zap-zsh/vim"
 
 # Load and initialise completion system
 autoload -Uz compinit

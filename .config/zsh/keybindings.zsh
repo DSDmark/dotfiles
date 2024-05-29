@@ -10,3 +10,7 @@ bindkey '^e' end-of-line
 # beginning of line
 bindkey '^a' beginning-of-line 
 
+# adding sudo prefix 
+bindkey -M emacs '^K' sudo-command-line
+bindkey -M vicmd '^K' sudo-command-line
+bindkey -M viins '^K' sudo-command-line
