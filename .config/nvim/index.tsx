@@ -1,7 +1,8 @@
-import React, { useState, useEffect } from "react";
-
 interface User {
   id: number;
-     name: string;
-   email:string ;
-}
+  name: string;
+  email: string;
+
+const re  function () {
+  return "hello";
+};

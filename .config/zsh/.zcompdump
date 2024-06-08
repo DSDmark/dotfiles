@@ -664,6 +664,7 @@ _comps=(
 'less' '_less'
 'let' '_math'
 'lf' '_lf'
+'lfcd' '_lf'
 'lftp' '_ncftp'
 'lha' '_lha'
 'libinput' '_libinput'

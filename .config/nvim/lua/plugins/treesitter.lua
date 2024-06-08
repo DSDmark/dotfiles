@@ -7,7 +7,6 @@ return {
       auto_install = true,
       hightlight = { enable = true },
        indent = { enable = true },
-
-    })
+      })
   end,
 }

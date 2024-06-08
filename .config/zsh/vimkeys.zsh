@@ -27,4 +27,3 @@ function zle-keymap-select {
 # using the fucntions
 zle -N zle-line-init
 zle -N zle-keymap-select
-
