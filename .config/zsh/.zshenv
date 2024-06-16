@@ -10,4 +10,3 @@ export VI_MODE_ESC_INSERT="jj"
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
-
