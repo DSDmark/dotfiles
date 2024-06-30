@@ -18,7 +18,7 @@ vim.api.nvim_set_keymap("n", "<C-z>", "<NOP>", { noremap = true, silent = true }
 vim.keymap.set("n", "<leader>e", ":Neotree toggle last<CR>")
 
 -- closing tab
-vim.api.nvim_set_keymap("n", "<leader>x", ":x!<CR>", { noremap = ture })
+-- vim.api.nvim_set_keymap("n", "<leader>c", ":x!<CR>", { noremap = ture })
 
 -- popover for defination
 vim.keymap.set("n", "<leader>m", vim.lsp.buf.hover, {})

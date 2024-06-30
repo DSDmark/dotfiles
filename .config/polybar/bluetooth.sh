@@ -4,7 +4,5 @@
 
 if [ -n "$connected_device" ]; then
     echo $connected_device 
-else
-    echo "no"
 fi
 

@@ -1,5 +1,5 @@
 # theme
-# import = ["~/.config/alacritty/themes/dracula/theme.toml"]
+import = ["~/.config/alacritty/themes/dracula/theme.toml"]
 
 [window]
 
