@@ -32,9 +32,9 @@ super + y
 super + g
 	bspc node -s biggest.window
 
-# polybar
-super + {alt + p}
-       polybar-msg cmd toggle 
+# quiting bspwm
+super + alt + Escape
+  bspc quit
 
 # volume
 XF86AudioRaiseVolume
@@ -53,7 +53,7 @@ XF86MonBrightnessUp
 #=============== state/flags
 
 # set the window state
-super + {alt + t,s,f}
+super + alt + {t,s,f}
 	bspc node -t {tiled,pseudo_tiled,floating,fullscreen}
 
 # set the node flags
@@ -81,7 +81,7 @@ super + {grave,Tab}
 	bspc {node,desktop} -f last
 
 # focus the older or newer node in the focus history
-super + {o,i}
+super + alt + {n,p}
 	bspc wm -h off; \
 	bspc node {older,newer} -f; \
 	bspc wm -h on
