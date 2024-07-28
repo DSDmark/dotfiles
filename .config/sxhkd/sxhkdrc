@@ -1,6 +1,6 @@
 # program launcher
-super + t
-	alacritty
+super + t 
+     kitty
 
 super + b
      firefox

@@ -11,7 +11,10 @@ polybar mybar 2>&1 | tee -a /tmp/polybar.log & disown
 # Wait for Polybar to launch completely
 sleep 2
 
-# Launch the auto-hide script
-$HOME/.config/polybar/auto-hide.sh &
 
 echo "Polybar launched..."
+
+# Launch the auto-hide script
+#$HOME/.config/polybar/auto-hide.sh &
+
+

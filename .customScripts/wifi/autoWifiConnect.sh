@@ -1,7 +1,7 @@
 #!/bin/bash
 
-TARGET_SSID='Airtel_braj_5983'
-TARGET_PASS_KEY="Air02019"  
+TARGET_SSID="sunil-4G"
+TARGET_PASS_KEY="88776655"  
 
 # Command to reconnect to the specified WiFi network using nmcli
 RECONNECT_COMMAND="nmcli device wifi connect $TARGET_SSID password $TARGET_PASS_KEY"

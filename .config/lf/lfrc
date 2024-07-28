@@ -3,10 +3,6 @@ source ~/.config/lf/key-functions
 # default shell
 set shell zsh
 
-# set preview image's
-set previewer ~/.config/lf/preview.sh
-# set previewer_pager none
-
 # delete
 map d delete
 
@@ -25,4 +21,5 @@ map a newfile
 # Bind 'A' to newdir command
 map A newdir
 
-
+# preview imgs
+#set previewer ~/.config/lf/pv

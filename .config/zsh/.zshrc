@@ -1,7 +1,6 @@
 # custom scripts
 source "$ZDOTDIR/customScripts/z.zsh"
 source "$ZDOTDIR/customScripts/git.zsh"
-source "$ZDOTDIR/customScripts/shortcuts.zsh"
 source "$ZDOTDIR/customScripts/nvim.zsh"
 
 #alias
@@ -9,9 +8,6 @@ source "$ZDOTDIR/aliases.zsh"
 
 # shortcutkeys
 source "$ZDOTDIR/keybindings.zsh"
-
-# vim 
-source "$ZDOTDIR/vimkeys.zsh"
 
 # z command initialing
 eval "$(zoxide init zsh)"
@@ -37,3 +33,7 @@ compinit
 
 # bun completions
 [ -s "/home/dsdmark/.bun/_bun" ] && source "/home/dsdmark/.bun/_bun"
+
+# autostart utils
+fastfetch
+
