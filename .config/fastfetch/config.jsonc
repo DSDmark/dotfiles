@@ -3,10 +3,9 @@
   "logo": {
     "type": "kitty",
     "source": "/home/dsdmark/.config/fastfetch/anime.png",
-    "height": 20,
+    "height": 14,
     "padding": {
-      "top": 2,
-      "right": 6,
+      "top": 1,
     },
   },
   "display": {
@@ -54,6 +53,16 @@
       "type": "wm",
       "format": "{} ({3})",
       "key": "window manager ",
+      "keyColor": "33",
+    },
+    {
+      "type": "cpu",
+      "key": "cpu            ",
+      "keyColor": "33",
+    },
+    {
+      "type": "memory",
+      "key": "memory         ",
       "keyColor": "33",
     },
     "break",
