@@ -8,6 +8,9 @@ super + b
 Print
      flameshot gui
 
+super + a 
+  rofi -show drun	
+
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd

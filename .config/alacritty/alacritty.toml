@@ -30,9 +30,9 @@ style = "Regular"
 family = "FiraCode Nerd Font Mono"
 style = "Bold"
 
-[shell]
-program = "/usr/bin/tmux"
-args = ["new-session"]
+# [shell]
+# program = "/usr/bin/tmux"
+# args = ["new-session"]
 
 
 
