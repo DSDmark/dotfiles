@@ -9,3 +9,5 @@ alias p="mpv"
 alias bcl="bluetoothctl"
 alias fs="flameshot -v  && flameshot launcher"
 alias ssr="simplescreenrecorder"
+alias wili="nmcli device wifi list --rescan yes"
+
