@@ -1,4 +1,10 @@
+require "nvchad.options"
+
 local o = vim.opt
+
+-- Shell checking
+o.spelllang = "en_us"
+o.spell = true
 
 -- set split to always below and right
 o.splitright = true
@@ -30,3 +36,27 @@ o.smartindent = true
 o.tabstop = 2
 o.shiftwidth = 2
 o.ignorecase = true
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
